@@ -1,0 +1,20 @@
+{
+  "product": "orbik",
+  "version": "1.3.1",
+  "released": "2026-11-04",
+  "notes": "Preset packs install from their download zip or folder (no more 'no manifest.json'), and packs copied by hand one folder too deep now show in the browser.",
+  "notesUrl": "https://loopkit.com",
+  "minVersion": "",
+  "downloads": {
+    "windows": {
+      "url": "https://github.com/plugmakr/audicode-updates/releases/download/orbik-v1.3.1/Orbik-1.3.1-Windows-Setup.exe",
+      "sha256": "6f746e4b897c5d72a9113929194c9c569402a4271a50b29df84f1c5aadcb364a",
+      "size": 6426446
+    },
+    "mac": {
+      "url": "",
+      "sha256": "",
+      "size": 0
+    }
+  }
+}
