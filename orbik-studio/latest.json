@@ -1,0 +1,20 @@
+{
+  "product": "orbik-studio",
+  "version": "1.3.1",
+  "released": "2026-11-04",
+  "notes": "macOS: ORBIK Studio for Apple silicon and Intel Macs, with Audio Unit and VST3 hosting and Core Audio\r\nVideo: cut and trim the picture, titles, picture in picture, masks and chroma key; multicam angles and a source monitor; AAF and time-stamped Broadcast WAVs for Pro Tools; EDL import and export; media longer than 20 minutes\r\nOrbs: Chord Follow, Smash and a groove browser\r\nChord Lab: the key from audio (23 of 37 test songs exact, 28 with the relative key)\r\nOne heavy track's chain spread over cores, bit-exact (1.7x faster on 10 cores)\r\nRendering on every core stays fast while other programs are busy\r\nPreset packs: Orbik's pack.json packs install, and packs copied one folder too deep are found",
+  "notesUrl": "",
+  "minVersion": "",
+  "downloads": {
+    "windows": {
+      "url": "https://github.com/plugmakr/audicode-updates/releases/download/orbik-studio-v1.3.1/ORBIK-Studio-1.3.1-Windows-Setup.exe",
+      "sha256": "77e1ea15bed34e15aefe7940fb11047843f539541b860fe93af200cd7137b0ed",
+      "size": 202729485
+    },
+    "mac": {
+      "url": "",
+      "sha256": "",
+      "size": 0
+    }
+  }
+}
