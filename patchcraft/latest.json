@@ -1,0 +1,20 @@
+{
+  "product": "patchcraft",
+  "version": "1.0.0",
+  "released": "2026-11-04",
+  "notes": "PatchCraft Studio 1.0.0: first release.",
+  "notesUrl": "",
+  "minVersion": "",
+  "downloads": {
+    "windows": {
+      "url": "https://github.com/plugmakr/audicode-updates/releases/download/patchcraft-v1.0.0/PatchCraftStudio-1.0.0-Windows-Setup.exe",
+      "sha256": "ed79827ad9a5d91da52d475cb627efd2fad8898c47e599a67463f424d869c4fc",
+      "size": 205949961
+    },
+    "mac": {
+      "url": "",
+      "sha256": "",
+      "size": 0
+    }
+  }
+}
