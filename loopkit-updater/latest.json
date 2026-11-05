@@ -1,15 +1,15 @@
 {
   "product": "loopkit-updater",
-  "version": "1.1.0",
-  "released": "2026-11-04",
-  "notes": "The LoopKit Updater installs Orbik, ORBIK Studio and PatchCraft and keeps them up to date: silent installs, SHA-256 checked, LoopKit sign-in for what you own, and news and offers from AudiCode.",
+  "version": "1.2.0",
+  "released": "2026-11-05",
+  "notes": "Updater 1.2.0: Orbik, ORBIK Studio and PatchCraft install and update from your LoopKit account (sign in once). A sign-in bar shows while signed out; each download link is fetched fresh from LoopKit.",
   "notesUrl": "",
   "minVersion": "",
   "downloads": {
     "windows": {
-      "url": "https://github.com/plugmakr/audicode-updates/releases/download/loopkit-updater-v1.1.0/LoopKit-Updater-Setup-1.1.0.exe",
-      "sha256": "c9182af3918cfff884e79935e4ece09c5a7bd1154e702ae9e1c2b775cfe8d062",
-      "size": 81708420
+      "url": "https://github.com/plugmakr/audicode-updates/releases/download/loopkit-updater-v1.2.0/LoopKit-Updater-Setup-1.2.0.exe",
+      "sha256": "9a92e89d1a719cdbba3d5fd30ce47e463ea89d6f952e927bbd3fe0ed3233b69c",
+      "size": 81709356
     },
     "mac": {
       "url": "",
@@ -19,9 +19,9 @@
   },
   "kit": {
     "windows": {
-      "url": "https://github.com/plugmakr/audicode-updates/releases/download/loopkit-updater-v1.1.0/LoopKit-Updater-Web-Setup-1.1.0.exe",
-      "sha256": "19d85077cc047a511a06a53ebf280a06b3174fb16f32397131a20e55a3369591",
-      "size": 677191
+      "url": "https://github.com/plugmakr/audicode-updates/releases/download/loopkit-updater-v1.2.0/LoopKit-Updater-Web-Setup-1.2.0.exe",
+      "sha256": "f327a295d9a6862c7dd28135438b6abe65be4f74d9e82bb5b29aa05a485a359b",
+      "size": 677180
     }
   }
 }
