@@ -1,0 +1,27 @@
+{
+  "product": "loopkit-updater",
+  "version": "1.1.0",
+  "released": "2026-11-04",
+  "notes": "The LoopKit Updater installs Orbik, ORBIK Studio and PatchCraft and keeps them up to date: silent installs, SHA-256 checked, LoopKit sign-in for what you own, and news and offers from AudiCode.",
+  "notesUrl": "",
+  "minVersion": "",
+  "downloads": {
+    "windows": {
+      "url": "https://github.com/plugmakr/audicode-updates/releases/download/loopkit-updater-v1.1.0/LoopKit-Updater-Setup-1.1.0.exe",
+      "sha256": "c9182af3918cfff884e79935e4ece09c5a7bd1154e702ae9e1c2b775cfe8d062",
+      "size": 81708420
+    },
+    "mac": {
+      "url": "",
+      "sha256": "",
+      "size": 0
+    }
+  },
+  "kit": {
+    "windows": {
+      "url": "https://github.com/plugmakr/audicode-updates/releases/download/loopkit-updater-v1.1.0/LoopKit-Updater-Web-Setup-1.1.0.exe",
+      "sha256": "19d85077cc047a511a06a53ebf280a06b3174fb16f32397131a20e55a3369591",
+      "size": 677191
+    }
+  }
+}
