@@ -1,0 +1,80 @@
+{
+  "schema": 2,
+  "_comment": "Products the LoopKit Updater installs and keeps updated (README.md, 'Adding a product'). The copy at catalogUrl replaces this one when it loads, so products can be added without a new Updater.",
+  "catalogUrl": "https://raw.githubusercontent.com/plugmakr/audicode-updates/main/catalog.json",
+  "feeds": [
+    "https://loopkit.com/functions/v1/updaterFeed",
+    "https://raw.githubusercontent.com/plugmakr/audicode-updates/main/news.json"
+  ],
+  "apps": [
+    {
+      "id": "orbik",
+      "name": "Orbik",
+      "publisher": "AudiCode",
+      "kind": "Hybrid synth · VST3 / AU / Standalone",
+      "manifest": "https://raw.githubusercontent.com/plugmakr/audicode-updates/main/orbik/latest.json",
+      "store": "https://loopkit.com/p/orbik",
+      "loopkitProductId": "a85b129494358a0409cf7129",
+      "installer": { "win": "inno", "mac": "pkg" },
+      "detect": {
+        "win": { "uninstallKey": "{8A4E2F1C-6B3D-4C7A-9E51-0F2D7B6C4A91}_is1" },
+        "mac": { "pkgId": ["dev.audicode.orbik.vst3", "dev.audicode.orbik.au", "dev.audicode.orbik.app"], "bundle": "/Library/Audio/Plug-Ins/VST3/Orbik.vst3" }
+      },
+      "busy": { "win": ["Orbik.exe"], "mac": ["Orbik"] }
+    },
+    {
+      "id": "orbik-studio",
+      "name": "ORBIK Studio",
+      "publisher": "AudiCode",
+      "kind": "Music studio",
+      "manifest": "https://raw.githubusercontent.com/plugmakr/audicode-updates/main/orbik-studio/latest.json",
+      "store": "https://loopkit.com/p/orbik-studio",
+      "loopkitProductId": "245e986fd1ece65f1135d4bd",
+      "installer": { "win": "inno", "mac": "pkg" },
+      "detect": {
+        "win": { "uninstallKey": "{5C1E7A92-3D4B-4F6A-8E27-9B0D1C3F5A64}_is1" },
+        "mac": { "pkgId": "dev.audicode.orbikstudio", "bundle": "/Applications/ORBIK Studio.app" }
+      },
+      "busy": { "win": ["ORBIK Studio.exe"], "mac": ["ORBIK Studio"] }
+    },
+    {
+      "id": "patchcraft",
+      "name": "PatchCraft Studio",
+      "publisher": "AudiCode",
+      "kind": "Instrument builder · Player VST3",
+      "manifest": "https://raw.githubusercontent.com/plugmakr/audicode-updates/main/patchcraft/latest.json",
+      "store": "https://loopkit.com/p/patchcraft-studio",
+      "loopkitProductId": "97a8f869b35a828577b1a228",
+      "installer": { "win": "inno", "mac": "pkg" },
+      "detect": {
+        "win": { "displayName": "^PatchCraft Studio$" },
+        "mac": { "pkgId": "com.patchcraft.studio", "bundle": "/Applications/PatchCraft Studio.app" }
+      },
+      "busy": { "win": ["PatchCraft Studio.exe", "PatchCraftStudio.exe"], "mac": ["PatchCraft Studio"] }
+    },
+    {
+      "id": "romplur",
+      "name": "Romplur",
+      "publisher": "AudiCode",
+      "kind": "Plugin builder",
+      "repo": "plugmakr/Romplur-App-Releases",
+      "store": "https://getromplur.com/",
+      "versionFile": "%PROGRAMFILES%\\Romplur\\version.txt",
+      "installer": { "win": "exe", "mac": "pkg" },
+      "assets": {
+        "win": ["Windows-Setup\\.exe$", "\\.exe$"],
+        "mac": ["macOS.*\\.pkg$", "\\.pkg$"]
+      }
+    },
+    {
+      "id": "loopkit-updater",
+      "name": "LoopKit Updater",
+      "publisher": "LoopKit",
+      "kind": "This app",
+      "self": true,
+      "plugin": false,
+      "manifest": "https://raw.githubusercontent.com/plugmakr/audicode-updates/main/loopkit-updater/latest.json",
+      "installer": { "win": "nsis", "mac": "dmg" }
+    }
+  ]
+}
