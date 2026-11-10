@@ -12,9 +12,9 @@
       "size": 81709356
     },
     "mac": {
-      "url": "",
-      "sha256": "",
-      "size": 0
+      "url": "https://github.com/plugmakr/audicode-updates/releases/download/loopkit-updater-v1.2.0/LoopKit-Updater-1.2.0-macOS.dmg",
+      "sha256": "1ef54e8c4bd03cb533f16fbb1adf25db59dde11e9ac4816956a268be03b0f9c3",
+      "size": 199321654
     }
   },
   "kit": {
