@@ -48,7 +48,7 @@
       "loopkitProductId": "97a8f869b35a828577b1a228",
       "installer": { "win": "inno", "mac": "pkg" },
       "detect": {
-        "win": { "displayName": "^PatchCraft Studio$" },
+        "win": { "uninstallKey": "{B6302D57-AB6E-4F16-9873-2A7D8F3E9001}_is1" },
         "mac": { "pkgId": "com.patchcraft.studio", "bundle": "/Applications/PatchCraft Studio.app" }
       },
       "busy": { "win": ["PatchCraft Studio.exe", "PatchCraftStudio.exe"], "mac": ["PatchCraft Studio"] }
