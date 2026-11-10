@@ -1,6 +1,7 @@
 {
   "schema": 2,
   "_comment": "Products the LoopKit Updater installs and keeps updated (README.md, 'Adding a product'). The copy at catalogUrl replaces this one when it loads, so products can be added without a new Updater.",
+  "loopkitCatalog": "https://loopkit.com/functions/v1/updaterCatalog",
   "catalogUrl": "https://raw.githubusercontent.com/plugmakr/audicode-updates/main/catalog.json",
   "feeds": [
     "https://loopkit.com/functions/v1/updaterFeed",
