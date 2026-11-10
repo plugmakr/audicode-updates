@@ -1,28 +1,27 @@
 {
   "product": "loopkit-updater",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "released": "2026-11-09",
-  "notes": "Updater 1.3.0: every LoopKit plug-in and app is listed (new products appear by themselves), zip downloads install, free products for any signed-in account.",
+  "notes": "Updater 1.3.1: PatchCraft (and other products with an older all-users copy) no longer report a failed update after installing; install errors show in full.",
   "notesUrl": "",
   "minVersion": "",
   "downloads": {
     "windows": {
-      "url": "https://github.com/plugmakr/audicode-updates/releases/download/loopkit-updater-v1.3.0/LoopKit-Updater-Setup-1.3.0.exe",
-      "sha256": "bdce98856d0df7249672a31ab44caa5725f1ae43a7b399efe4df39a11165a23d",
-      "size": 81713165
+      "url": "https://github.com/plugmakr/audicode-updates/releases/download/loopkit-updater-v1.3.1/LoopKit-Updater-Setup-1.3.1.exe",
+      "sha256": "f530e8c36891dc00677c586a37446c15e5f2745bccb2ea0c4464ede79480a416",
+      "size": 81713716
     },
     "mac": {
-      "url": "https://github.com/plugmakr/audicode-updates/releases/download/loopkit-updater-v1.2.0/LoopKit-Updater-1.2.0-macOS.dmg",
-      "sha256": "1ef54e8c4bd03cb533f16fbb1adf25db59dde11e9ac4816956a268be03b0f9c3",
-      "size": 199321654,
-      "version": "1.2.0"
+      "url": "",
+      "sha256": "",
+      "size": 0
     }
   },
   "kit": {
     "windows": {
-      "url": "https://github.com/plugmakr/audicode-updates/releases/download/loopkit-updater-v1.3.0/LoopKit-Updater-Web-Setup-1.3.0.exe",
-      "sha256": "ab22f4e3def48b4424a1114f29af89415ad9beff3012fdf46c24518689fce9d3",
-      "size": 677106
+      "url": "https://github.com/plugmakr/audicode-updates/releases/download/loopkit-updater-v1.3.1/LoopKit-Updater-Web-Setup-1.3.1.exe",
+      "sha256": "16cba38e41a5a4172bce28bc9ecb7c10f047cf662b16eff31edf3e82fee8ff27",
+      "size": 677185
     }
   }
 }
