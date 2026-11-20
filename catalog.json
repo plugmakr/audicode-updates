@@ -18,8 +18,11 @@
       "loopkitProductId": "a85b129494358a0409cf7129",
       "installer": { "win": "inno", "mac": "pkg" },
       "detect": {
-        "win": { "uninstallKey": "{8A4E2F1C-6B3D-4C7A-9E51-0F2D7B6C4A91}_is1" },
-        "mac": { "pkgId": ["dev.audicode.orbik.vst3", "dev.audicode.orbik.au", "dev.audicode.orbik.app"], "bundle": "/Library/Audio/Plug-Ins/VST3/Orbik.vst3" }
+        "win": { "uninstallKey": "{8A4E2F1C-6B3D-4C7A-9E51-0F2D7B6C4A91}_is1", "displayName": "^Orbik" },
+        "mac": {
+          "pkgId": ["dev.audicode.orbik.vst3", "dev.audicode.orbik.au", "dev.audicode.orbik.app"],
+          "bundle": ["/Library/Audio/Plug-Ins/VST3/Orbik.vst3", "/Applications/Orbik.app", "/Library/Audio/Plug-Ins/Components/Orbik.component"]
+        }
       },
       "busy": { "win": ["Orbik.exe"], "mac": ["Orbik"] }
     },
@@ -31,12 +34,30 @@
       "loopkit": "orbik-studio",
       "store": "https://loopkit.com/p/orbik-studio",
       "loopkitProductId": "245e986fd1ece65f1135d4bd",
-      "installer": { "win": "inno", "mac": "pkg" },
+      "installer": { "win": "inno", "mac": "dmg" },
       "detect": {
-        "win": { "uninstallKey": "{5C1E7A92-3D4B-4F6A-8E27-9B0D1C3F5A64}_is1" },
+        "win": { "uninstallKey": "{5C1E7A92-3D4B-4F6A-8E27-9B0D1C3F5A64}_is1", "displayName": "^ORBIK Studio" },
         "mac": { "pkgId": "dev.audicode.orbikstudio", "bundle": "/Applications/ORBIK Studio.app" }
       },
       "busy": { "win": ["ORBIK Studio.exe"], "mac": ["ORBIK Studio"] }
+    },
+    {
+      "id": "sync",
+      "name": "SYNC",
+      "publisher": "AudiCode",
+      "kind": "Instrument host · VST3 / AU / Standalone",
+      "loopkit": "sync",
+      "store": "https://loopkit.com/p/sync",
+      "loopkitProductId": "cd9544b4ed3b2bd2ff4c8261",
+      "installer": { "win": "inno", "mac": "pkg" },
+      "detect": {
+        "win": { "uninstallKey": "{382241C7-E8DD-45B1-9634-3FB8F722DC7A}_is1", "displayName": "^SYNC" },
+        "mac": {
+          "pkgId": ["com.syncaudio.sync.vst3", "com.syncaudio.sync.au", "com.syncaudio.sync.app", "com.syncaudio.sync.factory"],
+          "bundle": ["/Library/Audio/Plug-Ins/VST3/SYNC.vst3", "/Library/Audio/Plug-Ins/Components/SYNC.component", "/Applications/SYNC.app"]
+        }
+      },
+      "busy": { "win": ["SYNC.exe", "SYNC FX.exe"], "mac": ["SYNC", "SYNC FX"] }
     },
     {
       "id": "patchcraft",
